@@ -1,0 +1,51 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SWA: Run angular-app",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:4280",
+            "preLaunchTask": "swa: start angular-app",
+            "webRoot": "${workspaceFolder}/angular-app",
+            "timeout": 30000
+        },
+        {
+            "name": "SWA: Run react-app",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:4280",
+            "preLaunchTask": "swa: start react-app",
+            "webRoot": "${workspaceFolder}/react-app",
+            "timeout": 30000
+        },
+        {
+            "name": "SWA: Run svelte-app",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:4280",
+            "preLaunchTask": "swa: start svelte-app",
+            "webRoot": "${workspaceFolder}/svelte-app",
+            "timeout": 30000
+        },
+        {
+            "name": "SWA: Run vue-app",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:4280",
+            "preLaunchTask": "swa: start vue-app",
+            "webRoot": "${workspaceFolder}/vue-app",
+            "timeout": 30000
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "localhost に対して Chrome を起動する",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
